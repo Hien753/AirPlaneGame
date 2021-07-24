@@ -15,11 +15,16 @@ public class CountText: MonoBehaviour
 
     public void AddScore()
     {
-        score++;
+        score += 100;
+    }
+
+    public void AddScore2()
+    {
+        score += 500;
     }
 
     private void Update()
     {
-        scoreText.text = "SCORE: " + score.ToString();
+        scoreText.text = "Œo‰ßŽžŠÔ" + Time.time  + "SCORE: " + score.ToString();
     }
 }
