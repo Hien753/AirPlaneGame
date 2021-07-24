@@ -40,3 +40,7 @@ sysinfo.txt
 *.unitypackage
 
 *.log
+
+CarAI.asset
+NavMesh.asset
+shadercompiler-UnityShaderCompiler.exe0.log
