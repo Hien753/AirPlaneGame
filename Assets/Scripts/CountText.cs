@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class CountText: MonoBehaviour
 {
-    int score = 0;
+    int score;
     public Text scoreText;
 
     private void Start()
     {
-        score = 0;
+        score = -1200;
     }
 
     public void AddScore()
@@ -25,6 +25,6 @@ public class CountText: MonoBehaviour
 
     private void Update()
     {
-        scoreText.text = "Œo‰ßŽžŠÔ" + Time.time  + "SCORE: " + score.ToString();
+        scoreText.text = "SCORE: " + score.ToString();
     }
 }
