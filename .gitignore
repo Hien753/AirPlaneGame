@@ -41,6 +41,7 @@ sysinfo.txt
 
 *.log
 
+ProjectSettings\ProjectSettings.asset
 UserSettings/EditorUserSettings.asset
 Assets/SampleScenes/Scenes/CharacterThirdPersonAI/NavMesh.asset
 Logs/shadercompiler-UnityShaderCompiler.exe0.log
