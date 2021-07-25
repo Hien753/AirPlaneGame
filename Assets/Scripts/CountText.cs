@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class CountText: MonoBehaviour
 {
-    int score = 0;
+    int score;
     public Text scoreText;
 
     private void Start()
@@ -15,7 +15,12 @@ public class CountText: MonoBehaviour
 
     public void AddScore()
     {
-        score++;
+        score += 100;
+    }
+
+    public void AddScore2()
+    {
+        score += 500;
     }
 
     private void Update()

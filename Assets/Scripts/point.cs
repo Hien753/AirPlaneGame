@@ -6,7 +6,7 @@ using System;
 
 public class point : MonoBehaviour
 {
-    [SerializeField] GameObject ring;
+    [SerializeField] GameObject Ring;
     [SerializeField] [Range(0f, 1f)] float capacity;
 
     // Start is called before the first frame update
@@ -20,7 +20,7 @@ public class point : MonoBehaviour
 
         for (int n = 0; n < count; n++)
         {
-            Instantiate(ring, transform.GetChild(array2[n]).position, ring.transform.rotation);
+            Instantiate(Ring, transform.GetChild(array2[n]).position, Ring.transform.rotation);
         }
 
         Destroy(gameObject);
