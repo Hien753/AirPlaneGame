@@ -10,7 +10,7 @@ public class CountText: MonoBehaviour
 
     private void Start()
     {
-        score = -1200;
+        score = 0;
     }
 
     public void AddScore()
