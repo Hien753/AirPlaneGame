@@ -12,8 +12,8 @@ public class TestAirplane : MonoBehaviour
         hori = 2*Input.mousePosition.x/Screen.width-1.0f;
         vert = 2*Input.mousePosition.y/Screen.height-1.0f;
         var rb = GetComponent<Rigidbody>();
-        rb.AddRelativeTorque(new Vector3(0,Input.GetAxis("Horizontal"),-hori));
-        rb.AddRelativeTorque(new Vector3(-vert,0,0));
+        rb.AddRelativeTorque(new Vector3(0,Input.GetAxis("Horizontal"),-hori*1.5f));
+        rb.AddRelativeTorque(new Vector3(-vert*1.5f,0,0));
         //左
         var left = transform.TransformVector(Vector3.left);
         var horizontal_left = new Vector3(left.x,0f,left.z).normalized;
