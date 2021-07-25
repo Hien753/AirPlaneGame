@@ -12,17 +12,17 @@ public class gem : MonoBehaviour
     }
 
     /// <summary>
-    /// Õ“Ë‚µ‚½
+    /// è¡çªã—ãŸæ™‚
     /// </summary>
     /// <param name="collision"></param>
     void OnTriggerEnter(UnityEngine.Collider other)
     {
-        // Õ“Ë‚µ‚½‘Šè‚ÉPlayerƒ^ƒO‚ª•t‚¢‚Ä‚¢‚é‚Æ‚«
+        // è¡çªã—ãŸç›¸æ‰‹ã«Playerã‚¿ã‚°ãŒä»˜ã„ã¦ã„ã‚‹ã¨ã
         if (other.CompareTag("Player")) ;
         {
-            //ƒXƒRƒA‰ÁZ
+            //ã‚¹ã‚³ã‚¢åŠ ç®—
             scoreObject2.GetComponent<CountText>().AddScore2();
-            // 0.2•bŒã‚ÉÁ‚¦‚é
+            // 0.2ç§’å¾Œã«æ¶ˆãˆã‚‹
             Destroy(gameObject);
         }
     }

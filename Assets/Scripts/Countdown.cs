@@ -23,7 +23,7 @@ public class Countdown : MonoBehaviour
 
         countdown -= Time.deltaTime;
 
-        timeText.text = countdown.ToString("f1") + "•b";
+        timeText.text = countdown.ToString("f1") + "ç§’";
 
         if (countdown <= 0)
         {
