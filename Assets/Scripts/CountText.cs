@@ -7,8 +7,7 @@ public class CountText: MonoBehaviour
 {
     int score;
     public Text scoreText;
-
-    private void Start()
+    void Start()
     {
         score = -1200;
     }
