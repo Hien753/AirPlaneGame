@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class CountText: MonoBehaviour
 {
-    int score;
+    public static int score;
     public Text scoreText;
 
     private void Start()
